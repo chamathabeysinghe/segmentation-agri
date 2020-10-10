@@ -1,0 +1,34 @@
+Collecting albumentations
+  Using cached albumentations-0.4.6.tar.gz (117 kB)
+Requirement already satisfied, skipping upgrade: numpy>=1.11.1 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from albumentations) (1.19.1)
+Requirement already satisfied, skipping upgrade: scipy in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from albumentations) (1.5.2)
+Collecting imgaug>=0.4.0
+  Using cached imgaug-0.4.0-py2.py3-none-any.whl (948 kB)
+Requirement already satisfied, skipping upgrade: PyYAML in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from albumentations) (5.3.1)
+Requirement already satisfied, skipping upgrade: opencv-python-headless>=4.1.1 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from albumentations) (4.4.0.44)
+Requirement already satisfied, skipping upgrade: six in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from imgaug>=0.4.0->albumentations) (1.15.0)
+Requirement already satisfied, skipping upgrade: imageio in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from imgaug>=0.4.0->albumentations) (2.9.0)
+Requirement already satisfied, skipping upgrade: matplotlib in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from imgaug>=0.4.0->albumentations) (3.3.2)
+Collecting opencv-python
+  Downloading opencv_python-4.4.0.44-cp36-cp36m-macosx_10_13_x86_64.whl (52.3 MB)
+Requirement already satisfied, skipping upgrade: Pillow in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from imgaug>=0.4.0->albumentations) (7.2.0)
+Collecting Shapely
+  Downloading Shapely-1.7.1-cp36-cp36m-macosx_10_9_x86_64.whl (1.0 MB)
+Requirement already satisfied, skipping upgrade: scikit-image>=0.14.2 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from imgaug>=0.4.0->albumentations) (0.17.2)
+Requirement already satisfied, skipping upgrade: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from matplotlib->imgaug>=0.4.0->albumentations) (2.4.7)
+Requirement already satisfied, skipping upgrade: certifi>=2020.06.20 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from matplotlib->imgaug>=0.4.0->albumentations) (2020.6.20)
+Requirement already satisfied, skipping upgrade: kiwisolver>=1.0.1 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from matplotlib->imgaug>=0.4.0->albumentations) (1.2.0)
+Requirement already satisfied, skipping upgrade: python-dateutil>=2.1 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from matplotlib->imgaug>=0.4.0->albumentations) (2.8.1)
+Requirement already satisfied, skipping upgrade: cycler>=0.10 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from matplotlib->imgaug>=0.4.0->albumentations) (0.10.0)
+Requirement already satisfied, skipping upgrade: networkx>=2.0 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from scikit-image>=0.14.2->imgaug>=0.4.0->albumentations) (2.5)
+Requirement already satisfied, skipping upgrade: tifffile>=2019.7.26 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from scikit-image>=0.14.2->imgaug>=0.4.0->albumentations) (2020.9.3)
+Requirement already satisfied, skipping upgrade: PyWavelets>=1.1.1 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from scikit-image>=0.14.2->imgaug>=0.4.0->albumentations) (1.1.1)
+Requirement already satisfied, skipping upgrade: decorator>=4.3.0 in /Applications/Anaconda/anaconda3/envs/segmentation-models/lib/python3.6/site-packages (from networkx>=2.0->scikit-image>=0.14.2->imgaug>=0.4.0->albumentations) (4.4.2)
+Building wheels for collected packages: albumentations
+  Building wheel for albumentations (setup.py): started
+  Building wheel for albumentations (setup.py): finished with status 'done'
+  Created wheel for albumentations: filename=albumentations-0.4.6-py3-none-any.whl size=65167 sha256=5f7c17b15e75c88728da4ef7be3996b3b237c8328e535fd57764ed06e812b526
+  Stored in directory: /Users/chamathabeysinghe/Library/Caches/pip/wheels/38/db/df/d6cb0be184075a7799c1fd79240c389c16f51dfe18dc3332fa
+Successfully built albumentations
+Installing collected packages: opencv-python, Shapely, imgaug, albumentations
+Successfully installed Shapely-1.7.1 albumentations-0.4.6 imgaug-0.4.0 opencv-python-4.4.0.44

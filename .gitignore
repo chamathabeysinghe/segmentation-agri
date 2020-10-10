@@ -1,0 +1,7 @@
+*.png
+*.jpg
+*.jpeg
+.idea/
+.ipynb_checkpoints/
+data2
+data
